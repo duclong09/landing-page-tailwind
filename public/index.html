@@ -40,96 +40,126 @@
     </header>
     <!-- Banner -->
     <section>
-        <div class="w-full bg-no-repeat bg-cover relative h-custom" style="background-image: url(./img/banner.png)">
-            <!-- tag -->
-            <p>Food app</p>
-            <!-- title -->
-            <h1>
-                Why stay hungry
-                when you can order
-                form Bella Onojie
-            </h1>
-            <!-- description -->
-            <p>
-                Download the bella onoje’s
-                food app now on
-            </p>
-            <!-- buttons -->
-            <div>
-                <button>Playstore</button>
-                <button>Appstore</button>
+        <div class="w-full bg-no-repeat bg-cover relative h-custom" style="background-image: url('./img/banner.png')">
+            <div class="
+            absolute
+            top-1/2
+            left-1/2
+            transform
+            -translate-x-1/2 -translate-y-1/2
+            z-10
+            text-white text-center">
+                <!-- tag -->
+                <p class="text-xl mb-5">Food app</p>
+                <!-- title -->
+                <h1 class="tetx-4xl mb-5 font-bold max-w-2xl md:leading-relaxed
+                md:text-5xl">
+                    Why stay hungry when you can order form Bella Onojie
+                </h1>
+                <!-- desc -->
+                <p class="text-xl mb-5 font-light">
+                    Download the bella onoje’s food app now on
+                </p>
+                <!-- buttons -->
+                <div class="flex justify-center">
+                    <button class="mx-4 border border-transparent bg-red-500
+                    px-10 py-3 rounded-full hover:bg-transparent hover:border-white transition-all">
+                        Playstore
+                    </button>
+                    <button class="mx-4 border border-white
+                    bg-transparent px-3 rounded-full hover:bg-red-500 hover:border-transparent
+                    transition-all">
+                        Appstore
+                    </button>
+                </div>
             </div>
         </div>
     </section>
     <!-- App images -->
-    <section>
-        <div>
-            <img src="./img/app-img.png" alt="">
+    <section class="relative">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-2/3 -translate-y-1/4">
+            <img src="./img/app-img.png" alt="phone app screens" class="max-w-none w-screen pl-20
+            md:w-auto">
         </div>
     </section>
     <!-- App Steps -->
-    <section>
-        <div>
-            <hr>
+    <section class="pt-96 mt-28 sm:pt-40-c md:mt-0">
+        <div class="container mx-auto px-4">
+            <hr class="w-4/5 mx-auto h-0.5 bg-gray-200 md:w-2/5">
             <!-- title -->
-            <h2>How the app works</h2>
+            <h2 class="text-center text-4xl font-semibold py-10">How the app works</h2>
             <!-- step 1 -->
-            <div>
+            <div class="flex flex-col justify-evenly items-center py-10 md:flex-row">
                 <!-- img -->
-                <img src="./img/app-1.png" alt="app screen">
+                <div class="text-center mb-10">
+                    <img src="./img/app-1.png" alt="app screen">
+                </div>
+               
                 <!-- text -->
-                <div>
+                <div class="text-center md:text-left">
                     <!-- tag -->
-                    <span>Create and acount</span>
+                    <span class="text-red-500 font-semibold">Create and acount</span>
                     <!-- title -->
-                    <h2>
+                    <h2 class="text-4xl text-blue-900 font-bold max-w-md
+                    leading-relaxed py-5">
                         Create/login to an existing
                         account to get started
                     </h2>
                     <!-- description -->
-                    <p>
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto
+                    md:mx-0">
                         An account is created with your email
                         and a desired password
                     </p>
                 </div>
             </div>
             <!-- step 2 -->
-            <div>
+             <div class="flex flex-col justify-evenly items-center py-10 md:flex-row">
                 <!-- img -->
-                <img src="./img/app-2.png" alt="app screen">
+                <div class="text-center mb-10 order-1 md:order-2">
+                    <img src="./img/app-2.png" alt="app screen">
+                </div>
+               
                 <!-- text -->
-                <div>
+                <div class="text-center md:text-left order-2 md:order-1">
                     <!-- tag -->
-                    <span>Explore varieties</span>
+                    <span class="text-red-500 font-semibold">Create and acount</span>
                     <!-- title -->
-                    <h2>
-                        Shop for your favorites
-                        meal as e dey hot.
+                    <h2 class="text-4xl text-blue-900 font-bold max-w-md
+                    leading-relaxed py-5">
+                        Create/login to an existing
+                        account to get started
                     </h2>
                     <!-- description -->
-                    <p>
-                        Shop for your favorite meals or drinks
-                        and enjoy while doing it.
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto
+                    md:mx-0">
+                        An account is created with your email
+                        and a desired password
                     </p>
                 </div>
             </div>
             <!-- step 3 -->
-            <div>
+            <div class="flex flex-col justify-evenly items-center py-10 md:flex-row">
                 <!-- img -->
-                <img src="./img/app-3.png" alt="app screen">
+                <div class="text-center mb-10">
+                    <img src="./img/app-3.png" alt="app screen">
+                </div>
+               
                 <!-- text -->
-                <div>
+                <div class="text-center md:text-left">
                     <!-- tag -->
-                    <span>Checkout</span>
+                    <span class="text-red-500 font-semibold">Create and acount</span>
                     <!-- title -->
-                    <h2>
-                        When you done check out
-                        and get it delivered.
+                    <h2 class="text-4xl text-blue-900 font-bold max-w-md
+                    leading-relaxed py-5">
+                        Create/login to an existing
+                        account to get started
                     </h2>
                     <!-- description -->
-                    <p>
-                        When you done check out and get it
-                        delivered with ease.
+                    <p class="text-xl text-gray-500 font-light max-w-sm mx-auto
+                    md:mx-0">
+                        An account is created with your email
+                        and a desired password
                     </p>
                 </div>
             </div>
