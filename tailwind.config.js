@@ -1,12 +1,14 @@
 module.exports = {
+  mode: "jit",
+  purge: ["./public/**/*.html", "./public/**/*.js"],
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      height:{
+      height: {
         custom: "620px",
       },
-      spacing:{
+      spacing: {
         "40-c": "40rem",
       },
     },
